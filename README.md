@@ -39,16 +39,17 @@ const PersonSchema = {
 
 export type Person = DType<typeof PersonSchema>;
 ```
+
 ### Decoding
 
 ```ts
 const personDecoder = decoder<Person>(PersonSchema);
 
 const input = `{
-  name: "Peppino",
-  surname: "De Filippo",
-  age: "24-08-1903",
-  street: { qualifier: "Via" },
+  "name": "Peppino",
+  "surname": "De Filippo",
+  "age": "24-08-1903",
+  "street": "{ "qualifier": "Via" }",
 }`;
 
 const result = personDecoder(myJSON);
