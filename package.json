@@ -1,0 +1,25 @@
+{
+  "name": "diplomacy.ts",
+  "version": "0.0.1",
+  "description": "Minimal Schema and JSON decoding system with reporting and graceful degradation powers.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavideValdo/diplomacy.ts.git"
+  },
+  "keywords": [
+    "Schema",
+    "decoding",
+    "API",
+    "TypeScript"
+  ],
+  "author": "Davide Valdo Biagini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavideValdo/diplomacy.ts/issues"
+  },
+  "homepage": "https://github.com/DavideValdo/diplomacy.ts#readme"
+}
