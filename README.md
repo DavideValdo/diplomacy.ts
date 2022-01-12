@@ -40,7 +40,7 @@ const PersonSchema = {
 export type Person = DType<typeof PersonSchema>;
 ```
 
-###### Decoding
+##### Decoding
 
 ```ts
 const personDecoder = decoder<Person>(PersonSchema);
